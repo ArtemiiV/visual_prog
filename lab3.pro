@@ -9,11 +9,16 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    Bresenham.cpp \
+    heatmap.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
-    mainwindow.h
+    Bresenham.h \
+    heatmap.h \
+    mainwindow.h \
+    material.h
 
 FORMS += \
     mainwindow.ui
